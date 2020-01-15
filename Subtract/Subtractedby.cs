@@ -10,5 +10,10 @@ namespace Subtract
             results = Subtraction.Subtract(a, b);
             return results;
         }
+        public dynamic Subtracted(dynamic a)
+        {
+            results = Subtraction.Subtract(a);
+            return results;
+        }
     }
 }
