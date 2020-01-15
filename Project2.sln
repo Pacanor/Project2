@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticOperationsTests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatZScore", "StatZScore\StatZScore.csproj", "{D164A23A-8A1C-46F6-AA1D-B3D5C7E5671C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatZScoreTests", "StatZScoreTests\StatZScoreTests.csproj", "{6C6B0298-D4F5-4ECE-A8C2-7B5AE20D954F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D164A23A-8A1C-46F6-AA1D-B3D5C7E5671C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D164A23A-8A1C-46F6-AA1D-B3D5C7E5671C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D164A23A-8A1C-46F6-AA1D-B3D5C7E5671C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6B0298-D4F5-4ECE-A8C2-7B5AE20D954F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6B0298-D4F5-4ECE-A8C2-7B5AE20D954F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6B0298-D4F5-4ECE-A8C2-7B5AE20D954F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6B0298-D4F5-4ECE-A8C2-7B5AE20D954F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
