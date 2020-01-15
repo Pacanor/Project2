@@ -11,7 +11,7 @@ namespace StatisticOperations
         {
 
             dynamic theMean = StatMean.Mean(arrayA);
-            int arrayCount_1 = arrayA.Length - 1;
+            int arrayCount_1 = arrayA.Length;
 
             dynamic squares = new Array[0];
             dynamic squareSum = 0.0;
