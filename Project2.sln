@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticCalculator", "StatisticCalculator\StatisticCalculator.csproj", "{24195C31-0899-4B22-8335-93FA12372B45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticCalculator", "StatisticCalculator\StatisticCalculator.csproj", "{24195C31-0899-4B22-8335-93FA12372B45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticCalculatorTests", "StatisticCalculatorTests\StatisticCalculatorTests.csproj", "{6495ECE5-D224-4534-A6BE-9AF2676ACF5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticCalculatorTests", "StatisticCalculatorTests\StatisticCalculatorTests.csproj", "{6495ECE5-D224-4534-A6BE-9AF2676ACF5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculator", "BasicCalculator\BasicCalculator.csproj", "{A5C0A82A-54ED-44F5-8BA4-A6A9B742115A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculator", "BasicCalculator\BasicCalculator.csproj", "{A5C0A82A-54ED-44F5-8BA4-A6A9B742115A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculatorTests", "BasicCalculatorTests\BasicCalculatorTests.csproj", "{11ED2913-AC70-4C40-AE4E-4D88EE4F5035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculatorTests", "BasicCalculatorTests\BasicCalculatorTests.csproj", "{11ED2913-AC70-4C40-AE4E-4D88EE4F5035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicOperations", "BasicOperations\BasicOperations.csproj", "{3D91C0E5-A1C0-485C-8FF0-E2354AE12D71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicOperations", "BasicOperations\BasicOperations.csproj", "{3D91C0E5-A1C0-485C-8FF0-E2354AE12D71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicOperationsTests", "BasicOperationsTests\BasicOperationsTests.csproj", "{B9364099-33A9-4D89-9398-CE93B0E8BFA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicOperationsTests", "BasicOperationsTests\BasicOperationsTests.csproj", "{B9364099-33A9-4D89-9398-CE93B0E8BFA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticOperations", "StatisticOperations\StatisticOperations.csproj", "{586A2140-C2CE-4780-B408-FBC25F5D98A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticOperations", "StatisticOperations\StatisticOperations.csproj", "{586A2140-C2CE-4780-B408-FBC25F5D98A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticOperationsTests", "StatisticOperationsTests\StatisticOperationsTests.csproj", "{6B022CA9-199E-4274-BD50-514B3EB7D91A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticOperationsTests", "StatisticOperationsTests\StatisticOperationsTests.csproj", "{6B022CA9-199E-4274-BD50-514B3EB7D91A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatZScore", "StatZScore\StatZScore.csproj", "{D164A23A-8A1C-46F6-AA1D-B3D5C7E5671C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6B022CA9-199E-4274-BD50-514B3EB7D91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B022CA9-199E-4274-BD50-514B3EB7D91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B022CA9-199E-4274-BD50-514B3EB7D91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D164A23A-8A1C-46F6-AA1D-B3D5C7E5671C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D164A23A-8A1C-46F6-AA1D-B3D5C7E5671C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D164A23A-8A1C-46F6-AA1D-B3D5C7E5671C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D164A23A-8A1C-46F6-AA1D-B3D5C7E5671C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
