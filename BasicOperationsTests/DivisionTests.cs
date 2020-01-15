@@ -19,7 +19,7 @@ namespace BasicOperations.Tests
         [TestMethod()]
         public void DivideTest()
         {
-            int c = Division.Quotient(b, a);
+            double c = Division.Quotient(b, a);
             Assert.AreEqual(2, c);
         }
 
@@ -33,7 +33,7 @@ namespace BasicOperations.Tests
         [TestMethod()]
         public void DivideArrayTest()
         {
-            int c = Division.Quotient(arrayD);
+            double c = Division.Quotient(arrayD);
             Assert.AreEqual(4, c);
         }
 

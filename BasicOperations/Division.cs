@@ -7,9 +7,16 @@ namespace BasicOperations
     public class Division
     {
 
-        public static dynamic Quotient(dynamic a, dynamic b)
+        public static double Quotient(double a, double b)
         {
-            return a / b;
+            double c = a / b; 
+            return c;
+        }
+
+        public static double Quotient(int a, int b)
+        {
+            double c = a / b;
+            return c;
         }
 
         public static double Quotient(double[] arrayA)
@@ -25,9 +32,9 @@ namespace BasicOperations
             return d;
         }
 
-        public static int Quotient(int[] arrayB)
+        public static double Quotient(int[] arrayB)
         {
-            int d = arrayB[0];
+            double d = arrayB[0];
 
             for (int i = 1; i < arrayB.Length; i++)
             {

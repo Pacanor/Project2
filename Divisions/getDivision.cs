@@ -18,6 +18,5 @@ namespace Divisions
                 result = Division.Quotient(a);
                 return result;
             }
-        }
     }
 }
