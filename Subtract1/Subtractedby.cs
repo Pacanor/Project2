@@ -4,16 +4,16 @@ namespace Subtract1
 {
     public class Subtractedby : ISubtractedby
     {
-        public dynamic results;
+        public dynamic result;
         public dynamic Subtracted(dynamic a, dynamic b)
         {
-            results = Subtraction.Subtract(a, b);
-            return results;
+            result = Subtraction.Subtract(a, b);
+            return result;
         }
         public dynamic Subtracted(dynamic a)
         {
-            results = Subtraction.Subtract(a);
-            return results;
+            result = Subtraction.Subtract(a);
+            return result;
         }
     }
 }
