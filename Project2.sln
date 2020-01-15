@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticOperationsTests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbers", "RandomNumbers\RandomNumbers.csproj", "{8E5DF8D9-53EF-4582-851F-EE5995BB5D61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersTests", "RandomNumbersTests\RandomNumbersTests.csproj", "{00189FA3-CBCF-4358-B4EE-E2211192D1D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8E5DF8D9-53EF-4582-851F-EE5995BB5D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E5DF8D9-53EF-4582-851F-EE5995BB5D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E5DF8D9-53EF-4582-851F-EE5995BB5D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00189FA3-CBCF-4358-B4EE-E2211192D1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00189FA3-CBCF-4358-B4EE-E2211192D1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00189FA3-CBCF-4358-B4EE-E2211192D1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00189FA3-CBCF-4358-B4EE-E2211192D1D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
