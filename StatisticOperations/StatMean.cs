@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace StatisticOperations
 {
     public class StatMean
@@ -10,7 +12,8 @@ namespace StatisticOperations
             {
                 sum += a;
             }
-            var mean = sum/ values.Length;
+            double tempMean = sum / values.Length;
+            double mean = Math.Round(tempMean, 2, MidpointRounding.AwayFromZero);
             return mean;
         }
 
@@ -21,7 +24,8 @@ namespace StatisticOperations
             {
                 sum += a;
             }
-            var mean = sum / values.Length;
+            double tempMean = sum / values.Length;
+            double mean = Math.Round(tempMean, 2, MidpointRounding.AwayFromZero);
             return mean;
         }
     }
