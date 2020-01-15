@@ -1,6 +1,6 @@
 ﻿using System;
 using BasicOperations;
-namespace Subtract1
+namespace Subtract
 {
     public class Subtractedby : ISubtractedby
     {
