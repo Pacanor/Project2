@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Subtract1
+namespace Subtract
 {
    
         public interface ISubtractedby
