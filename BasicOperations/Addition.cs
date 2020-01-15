@@ -6,19 +6,35 @@ namespace BasicOperations
 {
     public class Addition
     {
-        public static dynamic Sum(dynamic a, dynamic b)
+        public static double Sum(double a, double b)
         {
             return a + b;
         }
 
-        public static dynamic Sum(dynamic arrayA)
+        public static int Sum(int a, int b)
         {
-            dynamic c = 0;
-            foreach (dynamic a in arrayA)
+            return a + b;
+        }
+
+        public static double Sum(double[] arrayA)
+        {
+            double c = 0;
+            foreach (double a in arrayA)
             {
                 c = Sum(a, c);
             }
             return c;
         }
+
+        public static int Sum(int[] arrayA)
+        {
+            int c = 0;
+            foreach (int a in arrayA)
+            {
+                c = Sum(a, c);
+            }
+            return c;
+        }
+
     }
 }
