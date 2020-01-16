@@ -18,20 +18,20 @@ namespace BasicOperations.Tests
         [TestMethod()]
         public void SqrRootIntTest()
         {
-            dynamic c = SquareRoot.Root(h);
+            dynamic c = SquareRoots.Root(h);
         }
 
         [TestMethod()]
         public void SqrRootDoubleTest()
         {
-            double c = SquareRoot.Root(i);
+            double c = SquareRoots.Root(i);
         }
 
         [TestMethod()]
         public void SqrRootArrayTest()
         {
             double[] x = { 1.41, 1.73, 2 };
-            double[] c = SquareRoot.Root(arrayF);
+            double[] c = SquareRoots.Root(arrayF);
 
             for (int i = 0; i < c.Length; i++)
             {
@@ -44,7 +44,7 @@ namespace BasicOperations.Tests
         public void SqrRootDoubleArrayTest()
         {
             double[] x = { 1.2, 2.5, 6.2 };
-            double[] c = SquareRoot.Root(arrayE);
+            double[] c = SquareRoots.Root(arrayE);
             for (int i = 0; i < c.Length; i++)
             {
                 Assert.AreEqual(x[i], c[i]);

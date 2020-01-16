@@ -3,17 +3,17 @@ using BasicOperations;
 
 namespace Divisions
 {
-    public class getDivide : IDivide
+    public class getDivision : IDividing
     {
             public dynamic result;
 
-            public dynamic Divide(dynamic a, dynamic b)
+            public dynamic Quotient(dynamic a, dynamic b)
             {
                 result = Division.Quotient(a, b);
                 return result;
             }
 
-            public dynamic Divide(dynamic a)
+            public dynamic Quotient(dynamic a)
             {
                 result = Division.Quotient(a);
                 return result;

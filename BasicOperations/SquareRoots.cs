@@ -5,7 +5,7 @@ using Helpers;
 
 namespace BasicOperations
 {
-    public class SquareRoot
+    public class SquareRoots
     {
         public static double Root(int a)
         {
