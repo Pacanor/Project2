@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatZScore", "StatZScore\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatZScoreTests", "StatZScoreTests\StatZScoreTests.csproj", "{DE1DECEE-E83D-4796-99A9-54773240FB49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqrRoots", "SqrRoots\SqrRoots.csproj", "{3E88D5B0-F821-4C9B-8483-104459FAF1BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqrRoots", "SqrRoots\SqrRoots.csproj", "{3E88D5B0-F821-4C9B-8483-104459FAF1BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squared", "Squared\Squared.csproj", "{DEC4056E-4AD7-46D0-9D20-52FA86ABCB95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{3E88D5B0-F821-4C9B-8483-104459FAF1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E88D5B0-F821-4C9B-8483-104459FAF1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E88D5B0-F821-4C9B-8483-104459FAF1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC4056E-4AD7-46D0-9D20-52FA86ABCB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC4056E-4AD7-46D0-9D20-52FA86ABCB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC4056E-4AD7-46D0-9D20-52FA86ABCB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC4056E-4AD7-46D0-9D20-52FA86ABCB95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
