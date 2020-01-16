@@ -24,16 +24,5 @@ namespace Helpers.Tests
             Assert.AreEqual(8.679, Helpers.Rounding.RoundOFFThreePlaces(c));
         }
 
-        [TestMethod()]
-        public void RoundOffTwoPlacesTest1()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void RoundOFFThreePlacesTest1()
-        {
-            Assert.Fail();
-        }
     }
 }
