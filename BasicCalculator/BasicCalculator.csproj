@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Additions\Additions.csproj" />
+    <ProjectReference Include="..\BasicOperations\BasicOperations.csproj" />
+    <ProjectReference Include="..\Divisions\Divisions.csproj" />
+    <ProjectReference Include="..\Multiply\Multiply.csproj" />
+    <ProjectReference Include="..\SqrRoots\SqrRoots.csproj" />
+    <ProjectReference Include="..\Squared\Squared.csproj" />
+    <ProjectReference Include="..\Subtract\Subtract.csproj" />
+  </ItemGroup>
+
 </Project>

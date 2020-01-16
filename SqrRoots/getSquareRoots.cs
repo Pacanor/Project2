@@ -3,13 +3,13 @@ using BasicOperations;
 
 namespace SqrRoots
 {
-    public class getSqrRoot : ISqrRoot
+    public class getSqrRoots : ISqrRoots
     {
         public dynamic result;
 
-        public dynamic SqrRoot(dynamic a)
+        public dynamic Root(dynamic a)
         {
-            result = SquareRoot.Root(a);
+            result = SquareRoots.Root(a);
             return result;
 
         }

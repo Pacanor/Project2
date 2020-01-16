@@ -4,8 +4,8 @@ using System.Text;
 
 namespace SqrRoots
 {
-    public interface ISqrRoot
+    public interface ISqrRoots
     {
-        public dynamic SqrRoot(dynamic a);
+        public dynamic Root(dynamic a);
     }
 }
