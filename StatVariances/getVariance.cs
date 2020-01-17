@@ -2,7 +2,7 @@
 
 namespace StatVariances
 {
-    public class getVariance : IVariance
+    public class GetVariance : IVariance
     {
         public static dynamic result;
 

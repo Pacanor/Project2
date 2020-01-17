@@ -1,9 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RandomGen;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Text;
 
 namespace RandomGen.Tests
 {
@@ -92,7 +89,6 @@ namespace RandomGen.Tests
                 Debug.Write(j + ". " + a[i] + Environment.NewLine);
                 Assert.IsTrue(a[i] <= 20 && a[i] >= 2);
             }
-
         }
     }
 }

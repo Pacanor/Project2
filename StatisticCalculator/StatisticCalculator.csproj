@@ -6,12 +6,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BasicCalculator\BasicCalculator.csproj" />
-    <ProjectReference Include="..\editedStandardDeviations\StatStandardDeviations.csproj" />
     <ProjectReference Include="..\Helpers\Helpers.csproj" />
     <ProjectReference Include="..\StatisticOperations\StatisticOperations.csproj" />
     <ProjectReference Include="..\StatMean\StatMean.csproj" />
     <ProjectReference Include="..\StatMedian\StatMedian.csproj" />
     <ProjectReference Include="..\StatMode\StatMode.csproj" />
+    <ProjectReference Include="..\StatStandardDeviations\StatStandardDeviations.csproj" />
     <ProjectReference Include="..\StatVariances\StatVariances.csproj" />
     <ProjectReference Include="..\StatZScore\StatZScore.csproj" />
   </ItemGroup>

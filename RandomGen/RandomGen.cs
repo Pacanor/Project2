@@ -10,12 +10,14 @@ namespace RandomGen
         {
             return random.Next(100);
         }
+
         public static double RandomDouble()
         {
             double temp = random.Next(100) * random.NextDouble();
             double number = Math.Round(temp, 2, MidpointRounding.ToEven);
             return number;
         }
+
         public static int RandomNumber(int min, int max)
         {
             return random.Next(min, max);
@@ -26,7 +28,7 @@ namespace RandomGen
             int minInt = Convert.ToInt32(min);
             int maxInt = Convert.ToInt32(max);
             double temp = -10000.00;
-            while(min>=temp || temp>=max)
+            while (min >= temp || temp >= max)
             {
                 var temp2 = random.Next(minInt, maxInt) * random.NextDouble();
                 temp = Math.Round(temp2, 2, MidpointRounding.AwayFromZero);
@@ -34,7 +36,7 @@ namespace RandomGen
             double number = temp;
             return number;
         }
-        
+
         public static double[] RandomDoubles(int num)
         {
             double[] numbers = new double[num];
@@ -53,7 +55,7 @@ namespace RandomGen
             int i = 0;
             while (i < num)
             {
-                numbers[i] = RandomInt(); 
+                numbers[i] = RandomInt();
                 i++;
             }
             return numbers;
@@ -67,7 +69,6 @@ namespace RandomGen
             {
                 numbers[i] = RandomNumber(min, max);
                 i++;
-
             }
             return numbers;
         }
@@ -83,6 +84,5 @@ namespace RandomGen
             }
             return numbers;
         }
-
     }
 }

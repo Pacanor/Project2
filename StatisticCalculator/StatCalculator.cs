@@ -13,8 +13,8 @@ namespace StatisticsCalculator
         private readonly FindMean mean = new FindMean();
         private readonly FindMode mode = new FindMode();
         private readonly FindMedian median = new FindMedian();
-        private readonly getStandardDev standDev = new getStandardDev();
-        private readonly getVariance var = new getVariance();
+        private readonly GetStandardDev standDev = new GetStandardDev();
+        private readonly GetVariance var = new GetVariance();
         private readonly FindZScore z = new FindZScore();
 
         public dynamic Mean(dynamic values)
