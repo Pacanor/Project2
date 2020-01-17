@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Helpers;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using StatisticOperations;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace StatisticOperations.Tests
         public void Variance_Test()
         {
             var finalVariance = StatVariance.Variance(arrayA);
-            Assert.AreEqual(6.8, finalVariance);
+            Assert.AreEqual(5.67, Helpers.Rounding.RoundOffTwoPlaces(finalVariance));
         }
 
 
@@ -24,7 +25,7 @@ namespace StatisticOperations.Tests
         public void VarianceDoubleTest()
         {
             var finalVariance = StatVariance.Variance(arrayB);
-            Assert.AreEqual(1.408, finalVariance);
+            Assert.AreEqual(1.13, Helpers.Rounding.RoundOffTwoPlaces(finalVariance));
         }
     }
 }

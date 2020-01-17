@@ -14,8 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Helpers\Helpers.csproj" />
-    <ProjectReference Include="..\StatisticOperations\StatisticOperations.csproj" />
+    <ProjectReference Include="..\StatMedian\StatMedian.csproj" />
   </ItemGroup>
 
 </Project>
