@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BasicOperations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BasicOperations.Tests
 {
@@ -15,6 +11,7 @@ namespace BasicOperations.Tests
         private readonly int b = 5;
         private readonly double[] e = { 6.02, 1.3, 2.5 };
         private readonly int[] f = { 30, 3, 2, 5 };
+
         [TestMethod()]
         public void SubtractDoubleTest()
         {

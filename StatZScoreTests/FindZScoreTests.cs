@@ -1,8 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StatZScore;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace StatZScore.Tests
 {

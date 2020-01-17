@@ -1,5 +1,4 @@
-﻿using System;
-using StatisticOperations;
+﻿using StatisticOperations;
 
 namespace StatVariances
 {
@@ -12,6 +11,5 @@ namespace StatVariances
             result = StatVariance.Variance(arrayA);
             return result;
         }
-
     }
 }

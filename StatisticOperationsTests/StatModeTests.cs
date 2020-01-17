@@ -1,8 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StatisticOperations;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace StatisticOperations.Tests
 {
@@ -21,8 +18,9 @@ namespace StatisticOperations.Tests
         public void ModeEqualIntTest()
         {
             int[] values = { 1, 2, 3, 4, 5 };
-            
-            try{
+
+            try
+            {
                 var mode = StatMode.Mode(values);
                 Assert.Fail("no exception thrown");
             }
@@ -30,7 +28,6 @@ namespace StatisticOperations.Tests
             {
                 Assert.IsTrue(ex is OperationCanceledException);
             }
-
         }
 
         [TestMethod()]
@@ -55,7 +52,6 @@ namespace StatisticOperations.Tests
             {
                 Assert.IsTrue(ex is OperationCanceledException);
             }
-
         }
     }
 }

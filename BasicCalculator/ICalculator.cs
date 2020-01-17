@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BasicCalculator
+﻿namespace BasicCalculator
 {
-   public interface ICalculator
+    public interface ICalculator
     {
         public dynamic Add(dynamic a, dynamic b); //Add is a function from the project Add and Class Sum
 
@@ -25,6 +21,5 @@ namespace BasicCalculator
         public dynamic Root(dynamic a);
 
         public dynamic Squarea(dynamic a);
-
     }
 }

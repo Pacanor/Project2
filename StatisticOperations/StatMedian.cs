@@ -1,7 +1,4 @@
-﻿using Helpers;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
 
 namespace StatisticOperations
 {
@@ -31,7 +28,7 @@ namespace StatisticOperations
 
         public static double Median(double[] values)
         {
-            double [] sortedVals = Helpers.Arrays.Sort(values);
+            double[] sortedVals = Helpers.Arrays.Sort(values);
             double median;
             int count = values.Length;
             if (count == 0)

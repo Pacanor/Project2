@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using BasicOperations;
+﻿using BasicOperations;
 
 namespace StatisticOperations
 {
     public class StatStandardDev
     {
         public static double result;
+
         public static double StandardDeviation(double[] arrayA)
         {
-
             double theMean = StatMean.Mean(arrayA);
             int arrayCount_1 = arrayA.Length;
 
@@ -22,7 +19,7 @@ namespace StatisticOperations
                 squareSum += squares;
             }
 
-            double Result1 = Division.Quotient(squareSum,arrayCount_1);
+            double Result1 = Division.Quotient(squareSum, arrayCount_1);
             result = SquareRoots.Root(Result1);
             return result;
         }

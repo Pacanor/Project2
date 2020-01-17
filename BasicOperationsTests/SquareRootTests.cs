@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BasicOperations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BasicOperations.Tests
 {
@@ -13,7 +9,6 @@ namespace BasicOperations.Tests
         private readonly double i = 2.25;
         private readonly double[] arrayE = { 1.44, 6.25, 38.44 };
         private readonly int[] arrayF = { 2, 3, 4 };
-
 
         [TestMethod()]
         public void SqrRootIntTest()
@@ -37,7 +32,6 @@ namespace BasicOperations.Tests
             {
                 Assert.AreEqual(x[i], c[i]);
             }
-
         }
 
         [TestMethod()]

@@ -6,7 +6,6 @@ namespace Helpers
     {
         public static int Length(dynamic array)
         {
-
             int length = array.Length();
             return length;
         }

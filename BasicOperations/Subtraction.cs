@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BasicOperations
+﻿namespace BasicOperations
 {
-   public class Subtraction
+    public class Subtraction
     {
         public static double Subtract(double c, double d)
         {
             return c - d;
         }
+
         public static int Subtract(int a, int b)
         {
             return a - b;
         }
+
         public static double Subtract(double[] a)
         {
             double c = 0.0;

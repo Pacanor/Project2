@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BasicOperations
+﻿namespace BasicOperations
 {
     public class Addition
     {
@@ -35,6 +31,5 @@ namespace BasicOperations
             }
             return c;
         }
-
     }
 }

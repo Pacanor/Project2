@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StatisticOperations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace StatisticOperations.Tests
 {
@@ -16,6 +12,7 @@ namespace StatisticOperations.Tests
             var Median = StatMedian.Median(values);
             Assert.AreEqual(3, Median);
         }
+
         [TestMethod()]
         public void MedianDoubleTest()
         {
@@ -31,6 +28,7 @@ namespace StatisticOperations.Tests
             var Median = StatMedian.Median(values);
             Assert.AreEqual(3.5, Median);
         }
+
         [TestMethod()]
         public void MedianEvenDoubleTest()
         {

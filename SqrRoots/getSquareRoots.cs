@@ -1,5 +1,4 @@
-﻿using System;
-using BasicOperations;
+﻿using BasicOperations;
 
 namespace SqrRoots
 {
@@ -11,7 +10,6 @@ namespace SqrRoots
         {
             result = SquareRoots.Root(a);
             return result;
-
         }
     }
 }

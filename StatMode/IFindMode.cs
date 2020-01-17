@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StatMode
+﻿namespace StatMode
 {
-    interface IFindMode
+    public interface IFindMode
     {
         public dynamic Mode(dynamic a);
     }
