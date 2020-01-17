@@ -17,16 +17,16 @@ namespace StatisticOperations.Tests
         public void StandardDev_Test()
         {
             var finalStandardDev = StatStandardDev.StandardDeviation(arrayA);
-
-            Assert.AreEqual(1.41, finalStandardDev);
+            var RoundedStandardDev = Helpers.Rounding.RoundOffTwoPlaces(finalStandardDev);
+            Assert.AreEqual(1.41, RoundedStandardDev);
         }
 
         [TestMethod()]
         public void StandardDevDoubleTest()
         {
             var finalStandardDev = StatStandardDev.StandardDeviation(arrayB);
-
-            Assert.AreEqual(0.14, finalStandardDev);
+            var RoundedStandardDev = Helpers.Rounding.RoundOffTwoPlaces(finalStandardDev);
+            Assert.AreEqual(0.14, RoundedStandardDev);
         }
     }
 }
