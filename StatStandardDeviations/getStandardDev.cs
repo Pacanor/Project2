@@ -2,7 +2,7 @@
 
 namespace StatStandardDeviations
 {
-    public class getStandardDev : IStandardDev
+    public class GetStandardDev : IStandardDev
     {
         public static double result;
 
