@@ -45,7 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squared", "Squared\Squared.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subtract", "Subtract\Subtract.csproj", "{16D0206A-8789-4037-AFC3-73A66939738A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatStandardDeviations", "editedStandardDeviations\StatStandardDeviations.csproj", "{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatStandardDeviations", "editedStandardDeviations\StatStandardDeviations.csproj", "{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatMode", "StatMode\StatMode.csproj", "{762840D2-0706-4CBE-8B61-05C1FC08AFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatModeTests", "StatModeTests\StatModeTests.csproj", "{2E2FDD69-C01E-4B5B-B171-C10BD5396032}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,14 @@ Global
 		{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762840D2-0706-4CBE-8B61-05C1FC08AFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762840D2-0706-4CBE-8B61-05C1FC08AFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762840D2-0706-4CBE-8B61-05C1FC08AFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762840D2-0706-4CBE-8B61-05C1FC08AFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2FDD69-C01E-4B5B-B171-C10BD5396032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2FDD69-C01E-4B5B-B171-C10BD5396032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2FDD69-C01E-4B5B-B171-C10BD5396032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2FDD69-C01E-4B5B-B171-C10BD5396032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
