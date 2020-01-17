@@ -45,7 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squared", "Squared\Squared.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subtract", "Subtract\Subtract.csproj", "{16D0206A-8789-4037-AFC3-73A66939738A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatStandardDeviations", "editedStandardDeviations\StatStandardDeviations.csproj", "{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatStandardDeviations", "editedStandardDeviations\StatStandardDeviations.csproj", "{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGen", "RandomGen\RandomGen.csproj", "{506C073C-EC13-40A3-ADFC-EE1769996594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGenTests", "RandomGenTests\RandomGenTests.csproj", "{5F042B91-A876-4816-94EB-2764987623B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,14 @@ Global
 		{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E509D7A-8547-481F-A4A3-B20F8AEDC4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506C073C-EC13-40A3-ADFC-EE1769996594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506C073C-EC13-40A3-ADFC-EE1769996594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506C073C-EC13-40A3-ADFC-EE1769996594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506C073C-EC13-40A3-ADFC-EE1769996594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F042B91-A876-4816-94EB-2764987623B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F042B91-A876-4816-94EB-2764987623B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F042B91-A876-4816-94EB-2764987623B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F042B91-A876-4816-94EB-2764987623B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
