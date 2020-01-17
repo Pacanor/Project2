@@ -11,6 +11,7 @@
     <ProjectReference Include="..\StatMean\StatMean.csproj" />
     <ProjectReference Include="..\StatMedian\StatMedian.csproj" />
     <ProjectReference Include="..\StatMode\StatMode.csproj" />
+    <ProjectReference Include="..\StatStandardDeviation\StatStandardDeviation.csproj" />
     <ProjectReference Include="..\StatVariances\StatVariances.csproj" />
     <ProjectReference Include="..\StatZScore\StatZScore.csproj" />
   </ItemGroup>

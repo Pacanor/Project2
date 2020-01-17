@@ -57,6 +57,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGen", "RandomGen\Rand
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGenTests", "RandomGenTests\RandomGenTests.csproj", "{164448AF-2AB4-4074-950D-06FEE1CCFB4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatStandardDeviation", "StatStandardDeviation\StatStandardDeviation.csproj", "{256767CC-1EB3-4801-A2BE-3B6B8716B636}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{164448AF-2AB4-4074-950D-06FEE1CCFB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{164448AF-2AB4-4074-950D-06FEE1CCFB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{164448AF-2AB4-4074-950D-06FEE1CCFB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256767CC-1EB3-4801-A2BE-3B6B8716B636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256767CC-1EB3-4801-A2BE-3B6B8716B636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256767CC-1EB3-4801-A2BE-3B6B8716B636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256767CC-1EB3-4801-A2BE-3B6B8716B636}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
