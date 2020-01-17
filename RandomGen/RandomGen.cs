@@ -26,7 +26,7 @@ namespace RandomGen
             int minInt = Convert.ToInt32(min);
             int maxInt = Convert.ToInt32(max);
             double temp = -10000.00;
-            while(min>temp || temp> max)
+            while(min>=temp || temp>=max)
             {
                 var temp2 = random.Next(minInt, maxInt) * random.NextDouble();
                 temp = Math.Round(temp2, 2, MidpointRounding.AwayFromZero);
