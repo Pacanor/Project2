@@ -55,6 +55,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatMode", "StatMode\StatMo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatModeTests", "StatModeTests\StatModeTests.csproj", "{9AE80888-E635-4052-BE77-88742F8321FF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGen", "RandomGen\RandomGen.csproj", "{DC2C81EB-203D-4CBC-9F02-9D34E76A09BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGenTests", "RandomGenTests\RandomGenTests.csproj", "{164448AF-2AB4-4074-950D-06FEE1CCFB4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{9AE80888-E635-4052-BE77-88742F8321FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AE80888-E635-4052-BE77-88742F8321FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AE80888-E635-4052-BE77-88742F8321FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC2C81EB-203D-4CBC-9F02-9D34E76A09BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2C81EB-203D-4CBC-9F02-9D34E76A09BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2C81EB-203D-4CBC-9F02-9D34E76A09BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2C81EB-203D-4CBC-9F02-9D34E76A09BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164448AF-2AB4-4074-950D-06FEE1CCFB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164448AF-2AB4-4074-950D-06FEE1CCFB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164448AF-2AB4-4074-950D-06FEE1CCFB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164448AF-2AB4-4074-950D-06FEE1CCFB4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
