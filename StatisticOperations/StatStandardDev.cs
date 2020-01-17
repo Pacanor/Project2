@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using BasicOperations;
 
 namespace StatisticOperations
 {
@@ -10,19 +11,37 @@ namespace StatisticOperations
         public static double StandardDeviation(double[] arrayA)
         {
 
-            dynamic theVariance = StatVariance.Variance(arrayA);
+            double theMean = StatMean.Mean(arrayA);
+            int arrayCount_1 = arrayA.Length;
 
-            double Result1 = Math.Sqrt(theVariance);
-            result = Math.Round(Result1, 2, MidpointRounding.ToEven);
+            double squareSum = 0.0;
+            foreach (double a in arrayA)
+            {
+                double differences = Subtraction.Subtract(a, theMean);
+                double squares = differences * differences;
+                squareSum += squares;
+            }
+
+            double Result1 = Division.Quotient(squareSum,arrayCount_1);
+            result = SquareRoots.Root(Result1);
             return result;
         }
 
         public static double StandardDeviation(int[] arrayA)
         {
-            dynamic theVariance = StatVariance.Variance(arrayA);
+            double theMean = StatMean.Mean(arrayA);
+            int arrayCount_1 = arrayA.Length;
 
-            double Result1 = Math.Sqrt(theVariance);
-            result = Math.Round(Result1, 2, MidpointRounding.ToEven);
+            double squareSum = 0.0;
+            foreach (int a in arrayA)
+            {
+                double differences = Subtraction.Subtract(a, theMean);
+                double squares = differences * differences;
+                squareSum += squares;
+            }
+
+            double variance = Division.Quotient(squareSum, arrayCount_1);
+            result = SquareRoots.Root(variance);
             return result;
         }
     }
