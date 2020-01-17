@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BasicCalculator\BasicCalculator.csproj" />
-    <ProjectReference Include="..\editedStandardDeviations\StatStandardDeviations.csproj" />
     <ProjectReference Include="..\Helpers\Helpers.csproj" />
     <ProjectReference Include="..\StatisticOperations\StatisticOperations.csproj" />
     <ProjectReference Include="..\StatMean\StatMean.csproj" />
