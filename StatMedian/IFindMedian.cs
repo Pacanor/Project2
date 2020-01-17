@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StatMedian
 {
-    interface IFindMedian
+    public interface IFindMedian
     {
         public dynamic Median(dynamic a);
     }

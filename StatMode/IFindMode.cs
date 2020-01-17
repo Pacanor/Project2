@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StatMode
 {
-    interface IFindMode
+    public interface IFindMode
     {
         public dynamic Mode(dynamic a);
     }
