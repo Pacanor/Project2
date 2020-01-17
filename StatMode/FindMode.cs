@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace StatMode
+﻿namespace StatMode
 {
     public class FindMode : IFindMode
     {
@@ -13,4 +11,3 @@ namespace StatMode
         }
     }
 }
-

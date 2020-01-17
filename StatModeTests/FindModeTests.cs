@@ -1,8 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StatMode;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace StatMode.Tests
 {
@@ -33,7 +30,6 @@ namespace StatMode.Tests
             {
                 Assert.IsTrue(ex is OperationCanceledException);
             }
-
         }
 
         [TestMethod()]
@@ -58,7 +54,6 @@ namespace StatMode.Tests
             {
                 Assert.IsTrue(ex is OperationCanceledException);
             }
-
         }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StatisticOperations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace StatisticOperations.Tests
 {
@@ -16,6 +12,7 @@ namespace StatisticOperations.Tests
             var mean = StatMean.Mean(values);
             Assert.AreEqual(3, mean);
         }
+
         [TestMethod()]
         public void MeanDoubleTest()
         {

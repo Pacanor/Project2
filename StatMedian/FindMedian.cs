@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace StatMedian
+﻿namespace StatMedian
 {
     public class FindMedian : IFindMedian
     {

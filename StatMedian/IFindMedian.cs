@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StatMedian
+﻿namespace StatMedian
 {
     public interface IFindMedian
     {

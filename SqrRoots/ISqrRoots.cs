@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SqrRoots
+﻿namespace SqrRoots
 {
     public interface ISqrRoots
     {

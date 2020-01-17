@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BasicOperations
 {
     public class Division
     {
-
         public static double Quotient(double a, double b)
         {
-            double c = a / b; 
+            double c = a / b;
             return c;
         }
 
@@ -42,6 +39,5 @@ namespace BasicOperations
             }
             return d;
         }
-
     }
 }

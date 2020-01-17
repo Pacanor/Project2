@@ -1,12 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BasicOperations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BasicOperations.Tests
 {
-
     [TestClass()]
     public class MultiplicationTests
     {
@@ -16,6 +11,7 @@ namespace BasicOperations.Tests
         private readonly int b = 3;
         private readonly double[] arrayA = { 3.0, 12.5, 6.0, 2.5 };
         private readonly int[] arrayB = { 15, 5, 6, 3 };
+
         [TestMethod()]
         public void MultiplyDoubleTest()
         {

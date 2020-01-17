@@ -1,15 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BasicCalculator;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BasicCalculator.Tests
 {
     [TestClass()]
     public class CalculatorTests
     {
-
         private readonly int a = 15;
         private readonly int b = 3;
         private readonly double c = 7.5;
@@ -22,6 +17,7 @@ namespace BasicCalculator.Tests
         private readonly double j = 3.4;
 
         private readonly Calculator calc = new Calculator();
+
         [TestMethod()]
         public void AddTest()
         {

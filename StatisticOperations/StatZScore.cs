@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace StatisticOperations
 {
@@ -14,17 +13,17 @@ namespace StatisticOperations
                 sumVals += a;
             }
             double mean = sumVals / values.Length;
-                
+
             dynamic squaredDeviation = new dynamic[values.Length]; ;
             int i = 0;
 
             foreach (int a in values)
             {
-                dynamic dev = a-mean; 
-                squaredDeviation[i] = dev*dev;
+                dynamic dev = a - mean;
+                squaredDeviation[i] = dev * dev;
                 i++;
             }
-            
+
             //double variance = StatMean.Mean(squaredDeviation);
             int sumSDevs = 0;
             foreach (dynamic a in squaredDeviation)
@@ -32,7 +31,7 @@ namespace StatisticOperations
                 sumSDevs += a;
             }
             double variance = sumSDevs / squaredDeviation.Length;
-                        
+
             double standDev = Math.Pow(variance, 1.0 / 2.0);
             double zScore = (score - mean) / standDev;
             return zScore;

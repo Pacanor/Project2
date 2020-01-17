@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BasicOperations
+﻿namespace BasicOperations
 {
     public class Multiplication
     {
@@ -10,6 +6,7 @@ namespace BasicOperations
         {
             return c * d;
         }
+
         public static int Multiply(int a, int b)
         {
             return a * b;
@@ -24,6 +21,7 @@ namespace BasicOperations
             }
             return c;
         }
+
         public static int Multiply(int[] ArrayB)
         {
             int c = ArrayB[0];

@@ -1,5 +1,4 @@
-﻿using System;
-using StatisticOperations;
+﻿using StatisticOperations;
 
 namespace StatStandardDeviations
 {

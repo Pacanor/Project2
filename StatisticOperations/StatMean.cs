@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace StatisticOperations
 {
@@ -8,7 +7,7 @@ namespace StatisticOperations
         public static dynamic Mean(int[] values)
         {
             var sum = 0;
-            foreach(int a in values)
+            foreach (int a in values)
             {
                 sum += a;
             }

@@ -1,6 +1,4 @@
-﻿using StatisticOperations;
-
-namespace StatMean
+﻿namespace StatMean
 {
     public class FindMean : IFindMean
     {

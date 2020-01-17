@@ -1,7 +1,5 @@
-﻿using Helpers;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace StatisticOperations
 {
@@ -33,7 +31,7 @@ namespace StatisticOperations
                         max = count.Value;
                     }
                 }
-                if(max > 1)
+                if (max > 1)
                 {
                     return mode;
                 }

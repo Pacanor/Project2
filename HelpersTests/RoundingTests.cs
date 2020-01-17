@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Helpers;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit.Sdk;
 
 namespace Helpers.Tests
@@ -12,6 +8,7 @@ namespace Helpers.Tests
     {
         private readonly double c = 8.67890;
         private readonly double d = 2.20645;
+
         [TestMethod()]
         public void RoundOffTwoPlacesTest()
         {
@@ -23,6 +20,5 @@ namespace Helpers.Tests
         {
             Assert.AreEqual(8.679, Helpers.Rounding.RoundOFFThreePlaces(c));
         }
-
     }
 }

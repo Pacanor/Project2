@@ -1,7 +1,7 @@
 ﻿using BasicCalculator;
 using StatMean;
-using StatMode;
 using StatMedian;
+using StatMode;
 using StatStandardDeviations;
 using StatVariances;
 using StatZScore;
@@ -29,7 +29,7 @@ namespace StatisticsCalculator
 
         public dynamic Mode(dynamic a)
         {
-           return mode.Mode(a);
+            return mode.Mode(a);
         }
 
         public dynamic Median(dynamic a)

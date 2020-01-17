@@ -1,8 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StatisticOperations;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace StatisticOperations.Tests
 {
@@ -16,7 +13,6 @@ namespace StatisticOperations.Tests
             int score = 4;
             var zScore = StatZScore.ZScore(score, values);
             Assert.AreEqual(0.70711, Math.Round(zScore, 5, MidpointRounding.ToEven));
-                
         }
 
         [TestMethod()]

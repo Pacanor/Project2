@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Helpers;
 
 namespace BasicOperations
 {
@@ -19,10 +16,8 @@ namespace BasicOperations
             return b;
         }
 
-
         public static double[] Root(double[] arrayA)
         {
-
             int l = arrayA.Length;
             double[] c = new double[l];
             int i = 0;
@@ -37,7 +32,6 @@ namespace BasicOperations
 
         public static double[] Root(int[] arrayA)
         {
-
             int l = arrayA.Length;
             double[] c = new double[l];
             int i = 0;

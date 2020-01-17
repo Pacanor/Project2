@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StatMedian;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace StatMedian.Tests
 {
@@ -10,6 +6,7 @@ namespace StatMedian.Tests
     public class FindMedianTests
     {
         private readonly FindMedian findMed = new FindMedian();
+
         [TestMethod()]
         public void MedianIntTest()
         {
@@ -17,6 +14,7 @@ namespace StatMedian.Tests
             var Median = findMed.Median(values);
             Assert.AreEqual(3, Median);
         }
+
         [TestMethod()]
         public void MedianDoubleTest()
         {
@@ -32,6 +30,7 @@ namespace StatMedian.Tests
             var Median = findMed.Median(values);
             Assert.AreEqual(3.5, Median);
         }
+
         [TestMethod()]
         public void MedianEvenDoubleTest()
         {
